@@ -1,14 +1,6 @@
-# django_zero_to_instagram
-
-장고를 이용한 인스타그램 클론 코딩입니다.
-
-강의 유튜브를 기반으로 합니다.
-
-유튜브 : https://youtu.be/M8UPyeF5DfM  
-관련 blog : https://cholol.tistory.com/547
-
----
-
+# dijango_zero_to_devops_youtube
+오류나서 다시하는 데브옵스 2번째 버전
+===
 ## 실행
 
 python 3.7 이상 버전 설치 후

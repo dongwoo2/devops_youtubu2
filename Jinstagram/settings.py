@@ -80,8 +80,13 @@ WSGI_APPLICATION = 'Jinstagram.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
+        'HOST': '13.211.205.221',
+        'NAME': 'devops_youtubu2',
+        'USER': 'root',
+        'PASSWORD': 'password',
+        'PORT': '3306',
+        'OPTIONS': {'charset': 'utf8mb4'},
     }
 }
 

@@ -81,10 +81,10 @@ WSGI_APPLICATION = 'Jinstagram.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'HOST': '13.211.205.221',
+        'HOST': 'db-devops2.cluster-chsgik6om44k.ap-southeast-2.rds.amazonaws.com',
         'NAME': 'devops_youtubu2',
-        'USER': 'root',
-        'PASSWORD': 'password',
+        'USER': 'admin',
+        'PASSWORD': 'rla50645064!',
         'PORT': '3306',
         'OPTIONS': {'charset': 'utf8mb4'},
     }

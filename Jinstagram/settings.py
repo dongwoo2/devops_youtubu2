@@ -84,7 +84,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'HOST': os.environ.get('MYSQL_HOST', 'localhost'),
         'NAME': 'devops_youtubu2',
-        'USER': os.environ.get('MYSQL_USER_MANE', 'default_user'),
+        'USER': os.environ.get('MYSQL_USER_NAME', 'default_user'),
         'PASSWORD': os.environ.get('MYSQL_PASSWORD', '<PASSWORD>'),
         'PORT': '3306',
         'OPTIONS': {'charset': 'utf8mb4'},

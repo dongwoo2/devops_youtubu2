@@ -82,10 +82,10 @@ WSGI_APPLICATION = 'Jinstagram.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'HOST': os.environ.get('MYSQL_HOST', 'localhost'),
+        'HOST': os.environ.get('MYSQL_HOST', 'localhost'), # MYSQL_HOST 라는 환경변수를 끌고와서 넣어주는것임 없으면은 localhost쓴다라는 뜻
         'NAME': 'devops_youtubu2',
         'USER': os.environ.get('MYSQL_USER_NAME', 'default_user'),
-        'PASSWORD': os.environ.get('MYSQL_PASSWORD', '<PASSWORD>'),
+        'PASSWORD': os.environ.get('MYSQL_PASSWORD', 'default_password'),
         'PORT': '3306',
         'OPTIONS': {'charset': 'utf8mb4'},
     }

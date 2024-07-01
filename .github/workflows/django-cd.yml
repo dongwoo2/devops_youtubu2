@@ -20,7 +20,7 @@ jobs:
           username: ${{ secrets.USERNAME }}
           key: ${{ secrets.KEY }}
           port: 22
-          scripts :
+          scripts : |
             cd /home/ubuntu/devops_youtubu2
             git pull
             sudo systemctl restart uwsgi

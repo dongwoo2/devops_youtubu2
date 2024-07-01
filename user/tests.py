@@ -12,7 +12,7 @@ class UserTest(TestCase):
     def setUpTestData(cls):
         User.objects.create(
             email="test_login@naver.com",
-            nickname="test_nickname",
+            nickname="test_login_nickname",
             name="test_name",
             password=make_password("test_password"),
             profile_image="default_profile.png",
